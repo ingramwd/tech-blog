@@ -47,7 +47,7 @@ User.init(
             allowNull: false,
             validate: {
                 //this means the password must be at least 4 characters long
-                len: [8]
+                len: [4]
             }
         }
     },
